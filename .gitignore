@@ -339,5 +339,5 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 
-# Files that contain credentials
-C:\Users\Rohan\Desktop\IT\CMPG323\Project\CMPG323-Project-3---34510982\ConnectedOffice\DeviceManagement_WebApp/appsettings.json
+# Files Containing Credentials
+*.json
