@@ -1,11 +1,11 @@
-## CMPG323-Project-2---34510982
+# CMPG323-Project-3---34510982
 
 ### Repositories created & used
 ---
 Each project will have its own repository, as specified in the brief.
 - Project 1:    CMPG323-Overview---34510982
 - Project 2:    CMPG323-Project-2---34510982
-# - Project 3:    CMPG323-Project-3---34510982
+### - Project 3:    CMPG323-Project-3---34510982
 - Project 4:    CMPG323-Project-4---34510982
 - Project 5:    CMPG323-Project-5---34510982
 - PoE: CMPG323-PoE---34510982

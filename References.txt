@@ -1,0 +1,9 @@
+https://learn.microsoft.com/en-us/dotnet/core/tools/sdk-errors/netsdk1004?f1url=%3FappId%3DDev16IDEF1%26l%3DEN-US%26k%3Dk(NETSDK1004)%26rd%3Dtrue
+
+https://learn.microsoft.com/en-us/dotnet/api/system.invalidoperationexception?view=net-6.0
+
+https://learn.microsoft.com/en-us/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/implementing-basic-crud-functionality-with-the-entity-framework-in-asp-net-mvc-application#overpost
+
+https://learn.microsoft.com/en-us/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/async-and-stored-procedures-with-the-entity-framework-in-an-asp-net-mvc-application
+
+https://learn.microsoft.com/en-us/dotnet/api/system.guid?view=net-6.0
