@@ -3,10 +3,10 @@
     "DeviceManagement_WebApp": {
       "commandName": "Project",
       "launchBrowser": true,
+      "applicationUrl": "https://localhost:54642;http://localhost:54643",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "applicationUrl": "https://localhost:54642;http://localhost:54643"
+      }
     }
   }
 }

@@ -37,6 +37,11 @@ namespace DeviceManagement_WebApp
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            services.AddTransient<ICategoriesRepository, CategoriesRepository>();
+            //services.AddTransient<IDevicesRepository, DeviceRepository>();
+            //services.AddTransient<IZonesRepository, ZoneRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
