@@ -16,5 +16,7 @@ public interface IGenericRepository<T> where T : class
     void RemoveRange(IEnumerable<T> entities);
     void Save();
     bool CategoryEX(Guid id);
+    bool ZoneEX(Guid id);
+    bool DeviceEX(Guid id);
     void Update(T entity);
 }

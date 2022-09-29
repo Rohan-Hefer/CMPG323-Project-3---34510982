@@ -8,8 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using DeviceManagement_WebApp.Data;
 using DeviceManagement_WebApp.Models;
 
-public interface IZonesRepository : IGenericRepository<Category>
+public interface IZonesRepository : IGenericRepository<Zone>
 {
-    object GetById(Guid? id);
-    Category GetMostRecentCategory();
+    Zone GetMostRecentZone();
 }

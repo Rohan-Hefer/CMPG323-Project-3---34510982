@@ -8,8 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using DeviceManagement_WebApp.Data;
 using DeviceManagement_WebApp.Models;
 
-public interface IDevicesRepository : IGenericRepository<Category>
+public interface IDeviceRepository : IGenericRepository<Device>
 {
-    object GetById(Guid? id);
-    Category GetMostRecentCategory();
+    Device GetMostRecentDevice();
 }

@@ -10,7 +10,7 @@ using DeviceManagement_WebApp.Models;
 
 public class CategoriesRepository : GenericRepository<Category>, ICategoriesRepository
 {
-    //private new readonly ConnectedOfficeContext _context = new ConnectedOfficeContext();
+    private new readonly ConnectedOfficeContext _context = new ConnectedOfficeContext();
     
     public CategoriesRepository(ConnectedOfficeContext context) : base(context)
     {
@@ -21,16 +21,4 @@ public class CategoriesRepository : GenericRepository<Category>, ICategoriesRepo
     {
         return _context.Category.OrderByDescending(category => category.DateCreated).FirstOrDefault();
     }
-
-    /*
-//private readonly ConnectedOfficeContext _context;
-
-
-// GET: Categories/Create
-public IActionResult Create()
-{
- return View();
-}
-
-*/
 }

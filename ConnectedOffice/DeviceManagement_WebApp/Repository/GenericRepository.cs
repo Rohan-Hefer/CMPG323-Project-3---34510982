@@ -63,6 +63,16 @@ public class GenericRepository<T> : IGenericRepository<T>  where T : class
        return _context.Category.Any(e => e.CategoryId == id);
     }
 
+    public bool ZoneEX(Guid id)
+    {
+        return _context.Zone.Any(e => e.ZoneId == id);
+    }
+
+    public bool DeviceEX(Guid id)
+    {
+        return _context.Device.Any(e => e.DeviceId == id);
+    }
+
     public void Update(T entity)
     {
         _context.Set<T>().Update(entity);
